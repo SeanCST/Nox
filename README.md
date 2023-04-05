@@ -30,14 +30,3 @@ web模块，MVC模式中的Controller层，定义接口。
 PS：或者直接运行NoxBffDeployApplication.main方法
 
 运行成功后，访问http://localhost:8080/hello
-
-
-
-
-
-
-
-
-
-
-docker run -d -e MODE=standalone -e SPRING_DATASOURCE_PLATFORM=mysql -e MYSQL_SERVICE_HOST=172.0.0.1 -e MYSQL_SERVICE_PORT=3306 -e MYSQL_SERVICE_USER=root -e MYSQL_SERVICE_PASSWORD='Liocc&123456' -e MYSQL_SERVICE_DB_NAME=nacos_config -e NACOS_AUTH_ENABLE=true -p 8848:8848 -p 9848:9848 -p 9849:9849 --restart=always --name nacos nacos/nacos-server
