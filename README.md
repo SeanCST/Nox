@@ -21,7 +21,7 @@ web模块，MVC模式中的Controller层，定义接口。
 
 ## 打包 & 部署
 ### nox-bff
-1.打开IDEA Maven Tab noxbff -> Lifecycle -> package
+1.打开IDEA Maven Tab nox-bff -> Lifecycle -> package
 
 2.双击package，打出jar包
 
